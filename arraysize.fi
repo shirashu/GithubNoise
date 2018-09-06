@@ -1,0 +1,27 @@
+	integer,parameter	::	npart	= 11		!不純物領域分割数
+	integer,parameter	::	nrecess	= 2		!リセス領域
+	integer,parameter	::	npole	= 3		!電極数
+	integer,parameter	::	nlayer	= 7		!層数
+	integer,parameter	::	narea	= 5		!素材種類数
+	integer,parameter	::	nenergy	= 4		!エネルギーテーブル数
+
+	integer,parameter	::  nchannel1= 4	!チャネル層始位置 11/03/23原
+	integer,parameter	::  nchannel2= 5	!チャネル層終位置 11/03/23原
+	integer,parameter	::  ndope	= 3		!ドープ層位置　11/03/23原
+
+	integer,parameter	::	nvalley	= 3 	!谷数
+	integer,parameter	::	nscat	= 12 	!散乱種類
+
+	integer,parameter	::	rejcnt	= 20		!Rejection制限回数
+	integer,parameter	::	sumcnt	= 1000	!電子濃度,電子エネルギー平均回数
+	integer,parameter	::	strej	= -19998	!Rejection ON ステップスイッチ
+
+	integer,parameter	::	scatsw	= 1		!1:散乱あり 0:散乱なし
+
+	integer,parameter	::	npmax	= 750000		!最大粒子数
+	integer,parameter	::	nemax	= 1000  		!エネルギー分割数
+	integer,parameter	::	ntemax	= 1			!温度分割数
+
+	integer,parameter	::	ngx	= 100			!ガウス分布最大メッシュ
+	integer,parameter	::	ngz	= 50 			!ガウス分布最大メッシュ
+	integer,parameter	::	ngn	= 7  			!ガウス分布テーブル数

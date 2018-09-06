@@ -1,0 +1,2 @@
+	integer,parameter	::	jtp00	= 500		!cur(jtp00)–{‰ñ‚µ•ªˆÈã‚ ‚ê‚Î‚æ‚¢
+	integer,parameter	::	cmesh	= 1		!output‚Åen_zave,naba,naba_mesh‚Ìo—Í•‚ğ‚ğdx/cmesh‚É‚·‚é
